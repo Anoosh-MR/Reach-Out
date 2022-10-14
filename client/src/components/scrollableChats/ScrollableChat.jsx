@@ -63,7 +63,7 @@ const ScrollableChat = ({ messages, isTyping }) => {
               {message.content[1] && (
                 <Image
                   src={message.content[1]}
-                  width="300px"
+                  width={{ base: "150px", xl: "200px" }}
                   borderRadius="10px"
                 />
               )}
